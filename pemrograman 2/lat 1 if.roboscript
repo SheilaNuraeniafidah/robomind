@@ -1,0 +1,10 @@
+if (leftiswhite)
+{ 
+left
+forward
+paintblack
+stoppainting
+backward
+}
+
+
