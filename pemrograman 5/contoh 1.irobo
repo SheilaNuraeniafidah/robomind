@@ -1,0 +1,18 @@
+#map:openarea.map
+procedure kotak()
+{
+    paintwhite()
+    repeat(4)
+    {
+        left()
+        forward()
+    }
+    stoppainting()
+}
+
+#pemanggilan procedure
+repeat(3)
+{
+    kotak()
+    forward(2)
+}
