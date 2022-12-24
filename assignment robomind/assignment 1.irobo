@@ -1,0 +1,22 @@
+#map:mapJalan.map
+#follow white line and paintwhite all black spot
+left
+repeat{
+    if(frontiswhite){
+        forward}
+    else if(frontisblack){
+        paintwhite
+        forward
+        stoppainting}
+    else if(rightiswhite){
+        right}
+    else if(leftiswhite){
+        left}
+    else if(~frontiswhite){
+        end}
+    if(frontisbeacon){
+        pickup
+        left(2)
+        putdown
+        left(2)}}
+    
